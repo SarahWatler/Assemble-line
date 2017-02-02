@@ -4,10 +4,16 @@ public class AssembleLine
 
 		public static void main(String[] args)
 			{
+				returnfeet();
+				changetoinches();
+				inchestocentimeters();
+				centimeterstometers();
+				meterstofeet();
+				feettoinches();
 				public static double returnfeet ()
 					{
-						Sacnner userInput = new Scanner (System.in;
-						System.out.println("please enter your height");
+						Sacnner userInput = new Scanner (System.in);
+						System.out.println("please enter your height in feet");
 						return userInput.nextDouble();
 					}
 					
@@ -34,8 +40,7 @@ public class AssembleLine
 					public static double feettoinches (double x)
 					{
 						return x / 12
-					}// TODO Auto-generated method stub
-
+					}
 			}
 		
 	}
